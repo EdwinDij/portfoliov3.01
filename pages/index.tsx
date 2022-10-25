@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import About from './About/About'
+import Exp from './About/Exp'
 import Navbar from './Navbar/Navbar'
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <About />
+      <Exp />
     </div>
   )
 }
