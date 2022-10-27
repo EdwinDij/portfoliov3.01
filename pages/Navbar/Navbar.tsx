@@ -11,7 +11,7 @@ export default function Navbar() {
                 <Link href="/">
                     <a className='hover:text-indigo-500'>Home</a>
                 </Link>
-                <Link href="/project">
+                <Link href="/Project">
                     <a className='hover:text-indigo-500'>Projets</a>
                 </Link>
                 <Link href="/About">
