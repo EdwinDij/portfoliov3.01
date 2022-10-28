@@ -6,17 +6,16 @@ export default function Projets() {
 
 let sortProject = projectItems.sort((a:any, b:any) => (a.id < b.id))
 
-console.log(sortProject)
 
     return (
         <div id='Project'>
             <div className='flex justify-around'>
                 <div>
-                    <h2>Mes projets</h2>
+                    <h2 className='text-2xl'>Mes projets</h2>
                     <p>Voici tout mes projets web.</p>
                 </div>
                 <div>
-                    <button type='button' className=''>
+                    <button type='button' className='bg-indigo-600 rounded py-2 px-6 text-xl hover:bg-indigo-800'>
                         Tout
                     </button>
                 </div>
@@ -24,7 +23,7 @@ console.log(sortProject)
             <div className="flex justify-around flex-wrap gap-8 "> {/* div qui contient toute les card la ou commence le .map*/}
                 {sortProject.map((work: any) => {
                     return <a href={work.link} target="_blank" rel="noopener noreferrer" key={work.id}> {/*div globale qui contiendra le texte*/}
-                        <div className='px-8 pt-10 bg-zinc-800 flex flex-col grou'> {/* div avec background qui a l'image */}
+                        <div className='px-8 pt-10 bg-zinc-800 flex flex-col hover:bg-indigo-800 duration-700'> {/* div avec background qui a l'image */}
                             <Image src={work.image}
                                 width="300"
                                 height="180"
@@ -42,6 +41,7 @@ console.log(sortProject)
                             </div>
                         </div>
                         <h3 className='text-xl '>{work.title}</h3>
+                        <p className='sm'>{work.status}</p>
                     </a>
                 })}
             </div>

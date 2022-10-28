@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import About from './About/About'
 import Exp from './About/Exp'
+import Contact from './Contact/Contact'
 import Navbar from './Navbar/Navbar'
 import Projets from './Projects/Projets'
 
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <About />
       <Exp />
       <Projets />
+      <Contact />
     </div>
   )
 }
