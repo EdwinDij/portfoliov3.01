@@ -47,7 +47,7 @@ export const projectItems:any = [
         icons:[seo],
         role: "SEO",
         alt: "img project",
-        link: "https://github.com/EdwinDij/EdwinDijeont_4_22012022"
+        link: "https://edwindij.github.io/EdwinDijeont_4_22012022/"
     },
     {
         id: 4,

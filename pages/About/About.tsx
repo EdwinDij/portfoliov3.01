@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-        <div className='perso flex items-center justify-evenly h-3/4'>
+        <div className='perso flex items-center justify-evenly h-3/4 my-40 '>
             <div>
                 <Image src={me} alt="moi en memoji" />
             </div>

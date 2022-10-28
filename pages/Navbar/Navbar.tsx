@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <nav className='flex font-bold justify-between sticky'>
+        <nav className='flex font-bold justify-around sticky ' >
             <div>
                 <h1>ED</h1>
             </div>

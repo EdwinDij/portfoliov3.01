@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+   
     'sm': '640px',
     // => @media (min-width: 640px) { ... }
 
