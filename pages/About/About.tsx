@@ -22,7 +22,7 @@ export default function About() {
                 </div>
                 <div>
                     <button type="button" className='text-lg font-semibold bg-indigo-600 rounded px-6 py-3 hover:bg-indigo-800'>
-                        <a href="/Dijeont_CV(6).pdf" target="_blank" rel="noreferrer"> Mon parcours</a>
+                        <a href="/Développeur_web.pdf" target="_blank" rel="noreferrer"> Mon parcours</a>
 
                     </button>
                 </div>
