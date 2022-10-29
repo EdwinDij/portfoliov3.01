@@ -12,10 +12,19 @@ export default function About() {
                 <div>
                     <p className='text-indigo-600 font-semibold text-xl'>Bonjour, je suis Edwin Dijeont</p>
                     <h1 className='text-5xl font-bold mt-2'>Développeur Front-end</h1>
-                    <p className='mt-4'>Je m{"'"}applle Edwin, je suis un développeur front-end interéssé par le coté créatif et technique de celui-ci.</p>
+                    <p className='mt-4'>Je m{"'"}applle Edwin, je vis à Paris<br></br> 
+                    Passionné par le développement front-end, par l{"'"}informatique, la création. <br></br>
+                    Ma soif d{"'"}apprendre ne s{"'"}éteint jamais.
+
+                 
+                    
+                    </p>
                 </div>
                 <div>
-                    <button type="button" className='text-lg font-semibold bg-indigo-600 rounded px-6 py-3 hover:bg-indigo-800'>À propos</button>
+                    <button type="button" className='text-lg font-semibold bg-indigo-600 rounded px-6 py-3 hover:bg-indigo-800'>
+                        <a href="/Dijeont_CV(6).pdf" target="_blank" rel="noreferrer"> Mon parcours</a>
+
+                    </button>
                 </div>
             </div>
 

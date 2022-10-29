@@ -6,9 +6,9 @@ import hands from '../../public/agreement.png'
 
 export default function Exp() {
   return (
-    <div className='mb-40 '>
+    <div className='mb-40'>
         <div className='flex justify-evenly max-lg:flex-col max-lg:items-center max-lg:gap-6'>
-            <div className='group bg-zinc-800 w-80 p-10 cursor-pointer hover:bg-indigo-700 duration-700 '>
+            <div className='group bg-zinc-800 w-80 p-10 cursor-pointer hover:bg-indigo-700 duration-700'>
                 <Image src={frontend}
                 height='60'
                 width='60'

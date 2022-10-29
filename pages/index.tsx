@@ -1,19 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import About from './About/About'
 import Exp from './About/Exp'
 import Contact from './Contact/Contact'
-import Modal from './Contact/Modal'
 import Navbar from './Navbar/Navbar'
 import Projets from './Projects/Projets'
 
 const Home: NextPage = () => {
   return (
-    <div className='scroll-smooth relative'>
+    <div className='scroll-smooth relative z-10'>
       <Head>
-        <title>Create Next App</title>
+        <title>Dijeont Edwin | dev front end</title>
         <meta name="Portfolio Dijeont Edwin" content="Portfolio developpeur web front-end" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -10,10 +10,10 @@ export default function Contact() {
 
     return (
         <div id='Contact'>
-            <div className='flex justify-around bg-zinc-800 py-16 max-sm:flex-col max-sm:items-center max-sm:gap-6'>
+            <div className='flex justify-around bg-zinc-800 py-16 max-sm:flex-col max-sm:items-center max-sm:gap-6 max-sm:px-4'>
                 <div>
                     <h4 className='font-bold text-3xl max-sm:text-xl'>Travaillons ensemble sur votre prochain projet.</h4>
-                    <p className='text-lg'>Peu importe le projet, je serai ravis de vous aider dans votre projet.</p>
+                    <p className='text-lg max-sm:mt-6'>Peu importe le projet, je serai ravis de vous aider dans votre projet.</p>
                 </div>
                 <div>
                     <button type='button' className='bg-indigo-600 rounded py-2 px-6 text-xl hover:bg-indigo-800' onClick={() => setShowModal(true)}>Contact</button>
