@@ -5,18 +5,19 @@ import styles from '../styles/Home.module.css'
 import About from './About/About'
 import Exp from './About/Exp'
 import Contact from './Contact/Contact'
+import Modal from './Contact/Modal'
 import Navbar from './Navbar/Navbar'
 import Projets from './Projects/Projets'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className='scroll-smooth relative'>
       <Head>
         <title>Create Next App</title>
         <meta name="Portfolio Dijeont Edwin" content="Portfolio developpeur web front-end" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
+   
       <Navbar />
       <About />
       <Exp />

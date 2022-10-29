@@ -5,19 +5,12 @@ import { projectItems } from '../api/project_file'
 export default function Projets() {
 
     let sortProject = projectItems.sort((a: any, b: any) => (a.id < b.id))
-
-
     return (
         <div id='Project' className='mb-20'>
-            <div className='flex justify-around mb-16'>
+            <div className='text-center mb-16'>
                 <div>
-                    <h2 className='text-2xl'>Mes projets</h2>
-                    <p>Voici tout mes projets web.</p>
-                </div>
-                <div>
-                    <button type='button' className='bg-indigo-600 rounded py-2 px-6 text-xl hover:bg-indigo-800'>
-                        Tout
-                    </button>
+                    <h2 className='text-4xl'>Mes projets</h2>
+                    <p className='text-lg'>Voici tout mes projets web.</p>
                 </div>
             </div>
             <div className="flex justify-center flex-wrap gap-x-8 gap-y-6"> {/* div qui contient toute les card la ou commence le .map*/}
