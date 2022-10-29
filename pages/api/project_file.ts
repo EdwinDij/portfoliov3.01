@@ -20,6 +20,7 @@ import typescript from '../../public/icons8-typescript-48.png';
 import tailwind from '../../public/icons8-tailwind-css-48.png';
 import nextjs from '../../public/favicon.ico';
 import seo from '../../public/referencement.png'
+import netflux from '../../public/netflux.png'
 
 export const projectItems:any = [
     {
@@ -98,7 +99,7 @@ export const projectItems:any = [
     {
         id: 9,
         title: "Netflux",
-        image: smoosh,
+        image: netflux,
         icons:[react, typescript, sass, firebase],
         role: "Full-stack",
         alt: "img project",
