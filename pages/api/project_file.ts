@@ -21,6 +21,7 @@ import tailwind from '../../public/icons8-tailwind-css-48.png';
 import nextjs from '../../public/favicon.ico';
 import seo from '../../public/referencement.png'
 import netflux from '../../public/netflux.png'
+import portfolio from '../../public/portfolio.png'
 
 export const projectItems:any = [
     {
@@ -109,7 +110,7 @@ export const projectItems:any = [
     {
         id: 10,
         title: "Ce portfolio",
-        image: smoosh,
+        image: portfolio,
         icons:[react, typescript, tailwind, nextjs],
         role: "Full-stack",
         alt: "img project",
