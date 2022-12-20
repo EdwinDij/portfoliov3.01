@@ -11,13 +11,10 @@ export default function About() {
             <div className='flex flex-col gap-20 '>
                 <div>
                     <p className='text-indigo-600 font-semibold text-xl'>Bonjour, je suis Edwin Dijeont</p>
-                    <h1 className='text-5xl font-bold mt-2'>Développeur Front-end</h1>
+                    <h1 className='text-5xl font-bold mt-2'>Développeur web</h1>
                     <p className='mt-4'>Je m{"'"}applle Edwin, je vis à Paris<br></br> 
-                    Passionné par le développement front-end, par l{"'"}informatique, la création. <br></br>
+                    Passionné par le développement web, par l{"'"}informatique, la création. <br></br>
                     Ma soif d{"'"}apprendre ne s{"'"}éteint jamais.
-
-                 
-                    
                     </p>
                 </div>
                 <div>

@@ -27,7 +27,7 @@ export default function Exp() {
                 <h2 className='font-bold text-2xl'>
                     Back-end
                 </h2>
-                <p>API, base de donné avec nodejs, Mongodb, sql, Firebase</p>
+                <p>Python, API, Nodejs, Mongodb, Mysql, Firebase</p>
                 <p className='text-xl text-indigo-700 group-hover:text-white duration-700'>En savoir plus</p>
             </div>
             <div className='group bg-zinc-800 w-80 p-10 cursor-pointer hover:bg-indigo-700 duration-700'>
