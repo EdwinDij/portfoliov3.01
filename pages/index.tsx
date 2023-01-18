@@ -10,8 +10,8 @@ const Home: NextPage = () => {
   return (
     <div className='scroll-smooth relative z-10'>
       <Head>
-        <title>Dijeont Edwin | dev front end</title>
-        <meta name="Portfolio Dijeont Edwin" content="Portfolio developpeur web front-end" />
+        <title>Dijeont Edwin | developpeur web</title>
+        <meta name="Portfolio de Dijeont Edwin" content="Portfolio developpeur web front-end" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
    
